@@ -208,7 +208,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   align-items: center;
   gap: 0.7rem;
 }
-.logo__mark { width: 46px; height: 46px; flex: none; }
+.logo__mark { width: 54px; height: 54px; flex: none; object-fit: contain; }
 .logo__text { display: flex; flex-direction: column; line-height: 1.1; }
 .logo__title {
   font-family: var(--font-head);
@@ -774,7 +774,15 @@ ul { margin: 0; padding: 0; list-style: none; }
   padding-bottom: 2.5rem;
 }
 .footer__brand { display: flex; align-items: center; gap: 0.9rem; }
-.footer__brand .logo__mark { width: 52px; height: 52px; }
+.footer__logo {
+  width: 66px; height: 66px;
+  flex: none;
+  object-fit: contain;
+  background: var(--color-white);
+  border-radius: 50%;
+  padding: 4px;
+  box-shadow: var(--shadow-sm);
+}
 .footer__title { font-family: var(--font-head); font-size: 1.4rem; color: var(--color-white); margin: 0; }
 .footer__tagline { margin: 0; font-size: 0.95rem; color: var(--color-turquoise-light); }
 .footer__contact a {
