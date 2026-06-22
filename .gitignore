@@ -1,0 +1,12 @@
+# Dependencies / Build- und Preview-Artefakte (gehören nicht ins Repo)
+node_modules/
+package.json
+package-lock.json
+
+# Lokale Screenshot-Skripte und gerenderte Vorschauen
+shot*.js
+preview/
+
+# OS-/Editor-Dateien
+.DS_Store
+Thumbs.db

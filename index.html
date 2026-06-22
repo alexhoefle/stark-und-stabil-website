@@ -10,10 +10,15 @@
   <meta name="author" content="Karin Schubert – Stark und Stabil" />
   <meta name="theme-color" content="#35293B" />
 
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+  <link rel="apple-touch-icon" href="assets/logo.png" />
+
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Stark und Stabil | Resilienztraining für Kinder" />
   <meta property="og:description" content="Resilienz- und Lebenskompetenztraining für Kinder, Schulen, Kindergärten und Vereine. Gemeinsam für starke Kinder." />
+  <meta property="og:image" content="assets/logo.png" />
   <meta property="og:locale" content="de_DE" />
 
   <!-- Fonts -->
@@ -31,16 +36,8 @@
 
       <!-- Logo -->
       <a href="#start" class="logo" aria-label="Stark und Stabil – Startseite">
-        <svg class="logo__mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
-          <!-- Organische Schildform als Markenzeichen -->
-          <path d="M32 4c8 4 17 5 24 5 0 18-2 34-24 46C10 43 8 27 8 9c7 0 16-1 24-5z"
-                fill="var(--color-turquoise)" />
-          <path d="M32 12c5 2.6 11 3.3 16 3.3 0 12.5-1.3 23.6-16 31.8C17 38.9 16 27.8 16 15.3c5 0 11-.7 16-3.3z"
-                fill="var(--color-cream)" />
-          <!-- Herz -->
-          <path d="M32 40c-6-4.5-10-8-10-12.5 0-3 2.3-5.2 5-5.2 1.9 0 3.8 1.1 5 3 1.2-1.9 3.1-3 5-3 2.7 0 5 2.2 5 5.2C42 32 38 35.5 32 40z"
-                fill="var(--color-orange)" />
-        </svg>
+        <img class="logo__mark" src="assets/logo.png" width="500" height="500"
+             alt="Stark und Stabil – Logo" />
         <span class="logo__text">
           <span class="logo__title">Stark <em>und</em> Stabil</span>
           <span class="logo__sub">Resilienztraining für Kinder</span>
@@ -358,15 +355,60 @@
         </div>
 
         <div class="offers-grid">
-          <article class="offer-card reveal"><span class="offer-card__icon">🎒</span><h3>Kurse im Kindergarten</h3><p>Spielerische Vorschulangebote für die Kleinsten.</p></article>
-          <article class="offer-card reveal"><span class="offer-card__icon">🏫</span><h3>Kurse in Schulklassen</h3><p>Altersgerechtes Training direkt im Klassenverband.</p></article>
-          <article class="offer-card reveal"><span class="offer-card__icon">🌟</span><h3>Offene Kurse</h3><p>Für Kinder aus unterschiedlichen Gruppen und Familien.</p></article>
-          <article class="offer-card reveal"><span class="offer-card__icon">⚽</span><h3>Kurse in Vereinen</h3><p>Stärkung von Teamgeist und Selbstbehauptung.</p></article>
-          <article class="offer-card reveal"><span class="offer-card__icon">👪</span><h3>Elternabende</h3><p>Wissen und Werkzeuge für den Familienalltag.</p></article>
-          <article class="offer-card reveal"><span class="offer-card__icon">🧑‍🏫</span><h3>Pädagogenabende</h3><p>Fachinput und Praxis für pädagogische Teams.</p></article>
-          <article class="offer-card reveal"><span class="offer-card__icon">🛠️</span><h3>Workshops</h3><p>Interaktive Einheiten mit nachhaltiger Wirkung.</p></article>
-          <article class="offer-card reveal"><span class="offer-card__icon">📚</span><h3>Seminare</h3><p>Vertiefende Formate zu Resilienz &amp; Prävention.</p></article>
-          <article class="offer-card reveal"><span class="offer-card__icon">🎤</span><h3>Vorträge</h3><p>Impulse und Inspiration für ein größeres Publikum.</p></article>
+          <article class="offer-card reveal">
+            <span class="offer-card__icon">🎒</span>
+            <h3>Kurse im Kindergarten</h3>
+            <p>Spielerische Vorschulangebote für die Kleinsten.</p>
+            <a class="offer-card__link" href="angebote/kindergarten.html">Mehr erfahren <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="offer-card reveal">
+            <span class="offer-card__icon">🏫</span>
+            <h3>Kurse in Schulklassen</h3>
+            <p>Altersgerechtes Training direkt im Klassenverband.</p>
+            <a class="offer-card__link" href="angebote/schulklassen.html">Mehr erfahren <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="offer-card reveal">
+            <span class="offer-card__icon">🌟</span>
+            <h3>Offene Kurse</h3>
+            <p>Für Kinder aus unterschiedlichen Gruppen und Familien.</p>
+            <a class="offer-card__link" href="angebote/offene-kurse.html">Mehr erfahren <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="offer-card reveal">
+            <span class="offer-card__icon">⚽</span>
+            <h3>Kurse in Vereinen</h3>
+            <p>Stärkung von Teamgeist und Selbstbehauptung.</p>
+            <a class="offer-card__link" href="angebote/vereine.html">Mehr erfahren <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="offer-card reveal">
+            <span class="offer-card__icon">👪</span>
+            <h3>Elternabende</h3>
+            <p>Wissen und Werkzeuge für den Familienalltag.</p>
+            <a class="offer-card__link" href="angebote/elternabende.html">Mehr erfahren <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="offer-card reveal">
+            <span class="offer-card__icon">🧑‍🏫</span>
+            <h3>Pädagogenabende</h3>
+            <p>Fachinput und Praxis für pädagogische Teams.</p>
+            <a class="offer-card__link" href="angebote/paedagogenabende.html">Mehr erfahren <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="offer-card reveal">
+            <span class="offer-card__icon">🛠️</span>
+            <h3>Workshops</h3>
+            <p>Interaktive Einheiten mit nachhaltiger Wirkung.</p>
+            <a class="offer-card__link" href="angebote/workshops.html">Mehr erfahren <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="offer-card reveal">
+            <span class="offer-card__icon">📚</span>
+            <h3>Seminare</h3>
+            <p>Vertiefende Formate zu Resilienz &amp; Prävention.</p>
+            <a class="offer-card__link" href="angebote/seminare.html">Mehr erfahren <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="offer-card reveal">
+            <span class="offer-card__icon">🎤</span>
+            <h3>Vorträge</h3>
+            <p>Impulse und Inspiration für ein größeres Publikum.</p>
+            <a class="offer-card__link" href="angebote/vortraege.html">Mehr erfahren <span aria-hidden="true">→</span></a>
+          </article>
         </div>
 
         <!-- Flexible Formate -->
@@ -447,11 +489,8 @@
   <footer class="footer">
     <div class="container footer__inner">
       <div class="footer__brand">
-        <svg class="logo__mark" viewBox="0 0 64 64" aria-hidden="true">
-          <path d="M32 4c8 4 17 5 24 5 0 18-2 34-24 46C10 43 8 27 8 9c7 0 16-1 24-5z" fill="var(--color-turquoise)"/>
-          <path d="M32 12c5 2.6 11 3.3 16 3.3 0 12.5-1.3 23.6-16 31.8C17 38.9 16 27.8 16 15.3c5 0 11-.7 16-3.3z" fill="var(--color-cream)"/>
-          <path d="M32 40c-6-4.5-10-8-10-12.5 0-3 2.3-5.2 5-5.2 1.9 0 3.8 1.1 5 3 1.2-1.9 3.1-3 5-3 2.7 0 5 2.2 5 5.2C42 32 38 35.5 32 40z" fill="var(--color-orange)"/>
-        </svg>
+        <img class="footer__logo" src="assets/logo.png" width="500" height="500"
+             alt="Stark und Stabil – Logo" />
         <div>
           <p class="footer__title">Stark und Stabil</p>
           <p class="footer__tagline">Gemeinsam für starke Kinder</p>
